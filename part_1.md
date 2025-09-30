@@ -78,16 +78,5 @@ for episode in range(num_episodes):
         state = next_state
 ```
 
----
-
-## Challenges
-
-1. **Implement tabular Q-learning** on multi-Arm Bandits, boilerplate code given in the ipynb
-2. **Try different ε decay strategies** and observe convergence speed.
-3. Train an agent on **Taxi-v3**, which has a larger state space. Track average reward per episode.
-4. (Bonus) Visualize the learned Q-table after training and interpret the agent's behavior.
-
----
-
 
 
